@@ -414,7 +414,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2023-06-18
+                    2023-07-02
                 </div>
                 
 
@@ -442,17 +442,19 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="埃氏筛"><a href="#埃氏筛" class="headerlink" title="埃氏筛"></a>埃氏筛</h2><p>原理是任意一个整数的倍数都是合数。那么我们扫描每个数，将他所有小于N的倍数标记为合数。这样一直扫描，一旦扫描到的数没有被标记则这个数必然没有其他因子，这个数就为质数。</p>
-<h5 id="复杂度O-nlog-n-log-n"><a href="#复杂度O-nlog-n-log-n" class="headerlink" title="复杂度O(nlog(n)log(n))"></a>复杂度O(nlog(n)log(n))</h5><pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp">bool st[N];
-void init(){
-    st[1]=true;
-    for(int i=2;i&lt;=n;i++){
-        if(!st[i]){
-            for(int j=i*2;j&lt;=n;j+=i){
-                st[j]=true;
-            }
-        }
-    }
-};<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="复杂度O-nlog-n-log-n"><a href="#复杂度O-nlog-n-log-n" class="headerlink" title="复杂度O(nlog(n)log(n))"></a>复杂度O(nlog(n)log(n))</h5><pre class=" language-cpp"><code class="language-cpp"><span class="token keyword">bool</span> st<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    st<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token boolean">true</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">2</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>st<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j<span class="token operator">=</span>i<span class="token operator">*</span><span class="token number">2</span><span class="token punctuation">;</span>j<span class="token operator">&lt;=</span>n<span class="token punctuation">;</span>j<span class="token operator">+</span><span class="token operator">=</span>i<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                st<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token operator">=</span><span class="token boolean">true</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre>
+
                 
             </div>
             <hr/>
@@ -687,9 +689,56 @@ void init(){
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2023/05/07/ou-shi-shai/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/img/2.jpg" class="responsive-img" alt="欧式筛">
+                        
+                        <span class="card-title">欧式筛</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2023-05-07
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AE%97%E6%B3%95/" class="post-category">
+                                    算法
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/">
+                        <span class="chip bg-color">筛质数</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2023/05/07/ai-shi-shai/">
@@ -723,54 +772,6 @@ void init(){
                     </div>
                 </div>
 
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/">
-                        <span class="chip bg-color">筛质数</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2023/05/07/ou-shi-shai/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/img/2.jpg" class="responsive-img" alt="欧式筛">
-                        
-                        <span class="card-title">欧式筛</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-05-07
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%AE%97%E6%B3%95/" class="post-category">
-                                    算法
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
                 
                 <div class="card-action article-tags">
                     
