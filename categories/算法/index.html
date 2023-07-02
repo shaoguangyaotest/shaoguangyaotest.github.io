@@ -333,20 +333,18 @@
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/07/ai-shi-shai/">
+                    <a href="/2023/05/07/ou-shi-shai/">
                         <div class="card-image tag-image">
                             
-                            <img src="/medias/img/1.jpg" class="responsive-img" alt="埃氏筛">
+                            <img src="/medias/img/2.jpg" class="responsive-img" alt="欧式筛">
                             
-                            <span class="card-title">埃氏筛</span>
+                            <span class="card-title">欧式筛</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                埃氏筛原理是任意一个整数的倍数都是合数。那么我们扫描每个数，将他所有小于N的倍数标记为合数。这样一直扫描，一旦扫描到的数没有被标记则这个数必然没有其他因子，这个数就为质数。
-复杂度O(nlog(n)log(n))bool st[N];
-vo
+                                欧式筛（又称线性筛法，因为他的复杂度就是线性而不是接近）思路就是将所有质数放入一个数组里。i从2到遍历，将i与每个小于i的质数相乘筛去他们的乘积，直到i等于那个质数或那个质数是i的质因子的时候停下，这样子必然满足合数是由最小质因子筛去的（因
                             
                         </div>
                         <div class="publish-info">
@@ -380,18 +378,20 @@ vo
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/05/07/ou-shi-shai/">
+                    <a href="/2023/05/07/ai-shi-shai/">
                         <div class="card-image tag-image">
                             
-                            <img src="/medias/img/2.jpg" class="responsive-img" alt="欧式筛">
+                            <img src="/medias/img/1.jpg" class="responsive-img" alt="埃氏筛">
                             
-                            <span class="card-title">欧式筛</span>
+                            <span class="card-title">埃氏筛</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                欧式筛（又称线性筛法，因为他的复杂度就是线性而不是接近）思路就是将所有质数放入一个数组里。i从2到遍历，将i与每个小于i的质数相乘筛去他们的乘积，直到i等于那个质数或那个质数是i的质因子的时候停下，这样子必然满足合数是由最小质因子筛去的（因
+                                埃氏筛原理是任意一个整数的倍数都是合数。那么我们扫描每个数，将他所有小于N的倍数标记为合数。这样一直扫描，一旦扫描到的数没有被标记则这个数必然没有其他因子，这个数就为质数。
+复杂度O(nlog(n)log(n))bool st[N];
+vo
                             
                         </div>
                         <div class="publish-info">
