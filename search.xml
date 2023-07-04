@@ -5,10 +5,10 @@
     
     <entry>
       <title>Typora</title>
-      <link href="/2023/05/07/markdown-bian-ji-qi/"/>
-      <url>/2023/05/07/markdown-bian-ji-qi/</url>
+      <link href="/2023/07/04/markdown-bian-ji-qi/"/>
+      <url>/2023/07/04/markdown-bian-ji-qi/</url>
       
-        <content type="html"><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a><a href="https://www.typora.net/">Typora</a></h2><h5 id="一种Markdown编辑器（需要激活）"><a href="#一种Markdown编辑器（需要激活）" class="headerlink" title="一种Markdown编辑器（需要激活）"></a>一种Markdown编辑器（需要激活）</h5><ol><li><p>打开安装的路径 </p><p><img src="/medias/image/image-202307041.png"></p></li><li><p>在搜索框中搜索 LicenseIndex </p><p><img src="/medias/image/image-202307042.png"></p></li><li><p>打开 LisenseIndex.chunk.js</p><p><img src="/medias/image/image-202307043.png"></p></li><li><p>在文件中查找e.hasActivated=”true”=e.hasActivated</p><p><img src="/medias/image/image-202307044.png"></p></li><li><p>修改为e.hasActivated=”true”==”true”</p><p><img src="/medias/image/image-202307045.png"></p></li><li><p>重新打开Typora，就会显示已激活！</p></li></ol><p><img src="/medias/image/image-202307046.png"></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a><a href="https://www.typora.net/">Typora</a></h2><h5 id="一种Markdown编辑器（需要激活）"><a href="#一种Markdown编辑器（需要激活）" class="headerlink" title="一种Markdown编辑器（需要激活）"></a>一种Markdown编辑器（需要激活）</h5><ol><li><p>打开安装的路径 </p><img src="image-202307041.png" style="zoom:150%;"></li><li><p>在搜索框中搜索 LicenseIndex </p><p><img src="/image-202307042.png"></p></li><li><p>打开 LisenseIndex.chunk.js</p><p><img src="/image-202307043.png"></p></li><li><p>在文件中查找e.hasActivated=”true”=e.hasActivated</p><p><img src="/image-202307044.png"></p></li><li><p>修改为e.hasActivated=”true”==”true”</p><p><img src="/image-202307045.png"></p></li><li><p>重新打开Typora，就会显示已激活！</p></li></ol><p><img src="/image-202307046.png"></p>]]></content>
       
       
       <categories>
