@@ -6,7 +6,7 @@
   <link href="https://shaogy.top/atom.xml" rel="self"/>
   
   <link href="https://shaogy.top/"/>
-  <updated>2023-07-04T12:52:37.806Z</updated>
+  <updated>2023-07-05T03:41:23.839Z</updated>
   <id>https://shaogy.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://shaogy.top/2023/07/04/markdown-bian-ji-qi/"/>
     <id>https://shaogy.top/2023/07/04/markdown-bian-ji-qi/</id>
     <published>2023-07-03T16:00:00.000Z</published>
-    <updated>2023-07-04T12:52:37.806Z</updated>
+    <updated>2023-07-05T03:41:23.839Z</updated>
     
     
       
@@ -42,18 +42,18 @@
   </entry>
   
   <entry>
-    <title>埃氏筛</title>
-    <link href="https://shaogy.top/2023/05/07/ai-shi-shai/"/>
-    <id>https://shaogy.top/2023/05/07/ai-shi-shai/</id>
+    <title>欧式筛</title>
+    <link href="https://shaogy.top/2023/05/07/ou-shi-shai/"/>
+    <id>https://shaogy.top/2023/05/07/ou-shi-shai/</id>
     <published>2023-05-06T16:00:00.000Z</published>
-    <updated>2023-07-02T11:46:10.679Z</updated>
+    <updated>2023-07-04T05:03:41.133Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;埃氏筛&quot;&gt;&lt;a href=&quot;#埃氏筛&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;欧式筛&quot;&gt;&lt;a href=&quot;#欧式筛&quot; class=&quot;headerlink&quot; title=&quot;欧式筛&quot;&gt;&lt;/a&gt;欧式筛&lt;/h2&gt;&lt;h4 id=&quot;（又称线性筛法，因为他的复杂度就是线性而不是接近）&quot;&gt;&lt;a</summary>
         
       
     
@@ -67,18 +67,18 @@
   </entry>
   
   <entry>
-    <title>欧式筛</title>
-    <link href="https://shaogy.top/2023/05/07/ou-shi-shai/"/>
-    <id>https://shaogy.top/2023/05/07/ou-shi-shai/</id>
+    <title>埃氏筛</title>
+    <link href="https://shaogy.top/2023/05/07/ai-shi-shai/"/>
+    <id>https://shaogy.top/2023/05/07/ai-shi-shai/</id>
     <published>2023-05-06T16:00:00.000Z</published>
-    <updated>2023-07-04T05:03:41.133Z</updated>
+    <updated>2023-07-02T11:46:10.679Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;欧式筛&quot;&gt;&lt;a href=&quot;#欧式筛&quot; class=&quot;headerlink&quot; title=&quot;欧式筛&quot;&gt;&lt;/a&gt;欧式筛&lt;/h2&gt;&lt;h4 id=&quot;（又称线性筛法，因为他的复杂度就是线性而不是接近）&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;埃氏筛&quot;&gt;&lt;a href=&quot;#埃氏筛&quot; class=&quot;headerlink&quot;</summary>
         
       
     
