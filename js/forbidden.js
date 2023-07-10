@@ -1,1 +1,1 @@
-window.oncontextmenu=function(){return!1},window.onkeydown=window.onkeyup=window.onkeypress=function(){return window.event.returnValue=!1,!1};var h=window.innerHeight,w=window.innerWidth;window.onresize=function(){h==window.innerHeight&&w==window.innerWidth||(alert("达咩，不可以。"),window.location="about:blank")};
+setInterval((function(){check()}),2e3);var check=function(){try{!function c(n){(function(){}).constructor("debugger")(),c(++n)}(0)}catch(c){}};check();
