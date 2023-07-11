@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>Web文本标签</title>
+      <link href="/2023/07/11/wen-ben-biao-qian/"/>
+      <url>/2023/07/11/wen-ben-biao-qian/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="文本标签"><a href="#文本标签" class="headerlink" title="文本标签"></a>文本标签</h1><p>文本标签虽然很多，但大部分可看成是预定好样式的<code>&lt;div&gt;</code>和<code>&lt;span&gt;</code></p><hr><h4 id="lt-div-gt-标签"><a href="#lt-div-gt-标签" class="headerlink" title="<div> 标签"></a><font color="#c7254e">&lt;div&gt;</font> 标签</h4><p><code>&lt;div&gt;</code> 元素 (或 HTML 文档分区元素) 是一个通用型的流内容容器，在不使用CSS的情况下，其对内容或布局没有任何影响。<br>其他块级标签例如：<code>&lt;h1&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;table&gt;。</code></p><hr><h4 id="lt-span-gt-标签"><a href="#lt-span-gt-标签" class="headerlink" title="<span> 标签"></a><font color="#c7254e">&lt;span&gt;</font> 标签</h4><p><code>&lt;span&gt;</code> 元素是短语内容的通用行内容器，并没有任何特殊语义。可以使用它来编组元素以达到某种样式意图（通过使用类或者 Id 属性），或者这些元素有着共同的属性，比如lang。应该在没有其他合适的语义元素时才使用它。<code>&lt;span&gt;</code> 与 <code>&lt;div&gt;</code> 元素很相似，但 <code>&lt;div&gt;</code> 是一个 块元素 而 <code>&lt;span&gt;</code> 则是 行内元素<br>其他内联标签例如：<code>&lt;i&gt;, &lt;b&gt;, &lt;del&gt;, &lt;ins&gt;, &lt;td&gt;, &lt;a&gt;。</code></p><hr><h4 id="lt-h1-gt-lt-h6-gt-标签"><a href="#lt-h1-gt-lt-h6-gt-标签" class="headerlink" title="<h1> - <h6> 标签"></a><font color="#c7254e">&lt;h1&gt; - &lt;h6&gt;</font> 标签</h4><p>HTML <code>&lt;h1&gt;–&lt;h6&gt;</code> 标题 (Heading) 元素呈现了六个不同的级别的标题，<code>&lt;h1&gt;</code> 级别最高，而 <code>&lt;h6&gt;</code> 级别最低。</p><hr><h4 id="lt-p-gt-标签"><a href="#lt-p-gt-标签" class="headerlink" title="<p> 标签"></a><font color="#c7254e">&lt;p&gt;</font> 标签</h4><p>HTML <code>&lt;p&gt;</code>元素（或者说 HTML 段落元素）表示文本的一个段落。该元素通常表现为一整块与相邻文本分离的文本，或以垂直的空白隔离或以首行缩进。另外，<code>&lt;p&gt;</code> 是块级元素。</p><hr><h4 id="lt-pre-gt-标签"><a href="#lt-pre-gt-标签" class="headerlink" title="<pre> 标签"></a><font color="#c7254e">&lt;pre&gt;</font> 标签</h4><p>HTML <code>&lt;pre&gt;</code> 元素表示预定义格式文本。在该元素中的文本通常按照原文件中的编排，以等宽字体的形式展现出来，文本中的空白符（比如空格和换行符）都会显示出来。(紧跟在 <code>&lt;pre&gt;</code> 开始标签后的换行符也会被省略)</p><hr><h4 id="lt-br-gt-标签"><a href="#lt-br-gt-标签" class="headerlink" title="<br> 标签"></a><font color="#c7254e">&lt;br&gt;</font> 标签</h4><p>HTML <code>&lt;br&gt;</code> 元素在文本中生成一个换行（回车）符号。此元素在写诗和地址时很有用，这些地方的换行都非常重要。</p><hr><h4 id="lt-hr-gt-标签"><a href="#lt-hr-gt-标签" class="headerlink" title="<hr> 标签"></a><font color="#c7254e">&lt;hr&gt;</font> 标签</h4><p>HTML <code>&lt;hr&gt;</code> 元素表示段落级元素之间的主题转换（例如，一个故事中的场景的改变，或一个章节的主题的改变）。</p><p>在 HTML 的早期版本中，它是一个水平线。现在它仍能在可视化浏览器中表现为水平线，但目前被定义为语义上的，而不是表现层面上。所以如果想画一条横线，请使用适当的 css 样式来修饰。</p><hr><h4 id="lt-i-gt-标签"><a href="#lt-i-gt-标签" class="headerlink" title="<i> 标签"></a><font color="#c7254e">&lt;i&gt;</font> 标签</h4><p>HTML 元素 <code>&lt;i&gt;</code> 用于表现因某些原因需要区分普通文本的一系列文本。例如技术术语、外文短语或是小说中人物的思想活动等，它的内容通常以斜体显示。</p><hr><h4 id="lt-b-gt-标签"><a href="#lt-b-gt-标签" class="headerlink" title="<b> 标签"></a><font color="#c7254e">&lt;b&gt;</font> 标签</h4><p>HTML 提醒注意（Bring Attention To）元素（<code>&lt;b&gt;</code>）用于吸引读者的注意到该元素的内容上（如果没有另加特别强调）。这个元素过去被认为是粗体（Boldface）元素，并且大多数浏览器仍然将文字显示为粗体。尽管如此，你不应将 <code>&lt;b&gt;</code> 元素用于显示粗体文字；替代方案是使用 CSS font-weight 属性来创建粗体文字。</p><hr><h4 id="lt-del-gt-标签"><a href="#lt-del-gt-标签" class="headerlink" title="<del> 标签"></a><font color="#c7254e">&lt;del&gt;</font> 标签</h4><p>HTML 的<code>&lt;del&gt;</code>标签表示一些被从文档中删除的文字内容。比如可以在需要显示修改记录或者源代码差异的情况使用这个标签。<code>&lt;ins&gt;</code>标签的作用恰恰于此相反：表示文档中添加的内容。</p><hr><h4 id="lt-ins-gt-标签"><a href="#lt-ins-gt-标签" class="headerlink" title="<ins> 标签"></a><font color="#c7254e">&lt;ins&gt;</font> 标签</h4><p>HTML <code>&lt;ins&gt;</code> 元素定义已经被插入文档中的文本。</p><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Web文档结构</title>
+      <link href="/2023/07/11/wen-dang-jie-gou/"/>
+      <url>/2023/07/11/wen-dang-jie-gou/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="文档结构"><a href="#文档结构" class="headerlink" title="文档结构"></a>文档结构</h1><p>html的所有标签为树形结构，例如：</p><pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>测试<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Hello World<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><h4 id="lt-html-gt-标签"><a href="#lt-html-gt-标签" class="headerlink" title="<html> 标签"></a><font color="#c7254e">&lt;html&gt;</font> 标签</h4><p>HTML <code>&lt;html&gt;</code> 元素 表示一个 HTML 文档的根（顶级元素），所以它也被称为根元素。所有其他元素必须是此元素的后代。</p><hr><h4 id="lt-head-gt-标签"><a href="#lt-head-gt-标签" class="headerlink" title="<head> 标签"></a><font color="#c7254e">&lt;head&gt;</font> 标签</h4><p>HTML head 元素 规定文档相关的配置信息（元数据），包括文档的标题，引用的文档样式和脚本等。</p><hr><h4 id="lt-body-gt-标签"><a href="#lt-body-gt-标签" class="headerlink" title="<body> 标签"></a><font color="#c7254e">&lt;body&gt;</font> 标签</h4><p>HTML body 元素表示文档的内容。document.body 属性提供了可以轻松访问文档的 body 元素的脚本。</p><hr><h4 id="lt-title-gt-标签"><a href="#lt-title-gt-标签" class="headerlink" title="<title> 标签"></a><font color="#c7254e">&lt;title&gt;</font> 标签</h4><p>HTML <code>&lt;title&gt;</code> 元素 定义文档的标题，显示在浏览器的标题栏或标签页上。它只应该包含文本，若是包含有标签，则它包含的任何标签都将被忽略。</p><hr><h4 id="lt-meta-gt-标签"><a href="#lt-meta-gt-标签" class="headerlink" title="<meta> 标签"></a><font color="#c7254e">&lt;meta&gt;</font> 标签</h4><p>HTML <meta> 元素表示那些不能由其它 HTML 元相关（meta-related）元素（(<code>&lt;base&gt;</code>、<code>&lt;link&gt;</code>, <code>&lt;script&gt;</code>、<code>&lt;style&gt;</code> 或 <code>&lt;title&gt;</code>）之一表示的任何元数据信息。</p><h5 id="常见属性："><a href="#常见属性：" class="headerlink" title="常见属性："></a>常见属性：</h5><ul><li><code>charset</code>：这个属性声明了文档的字符编码。如果使用了这个属性，其值必须是与 ASCII 大小写无关（ASCII case-insensitive）的”utf-8”。</li><li><code>name</code>：name 和 content 属性可以一起使用，以名 - 值对的方式给文档提供元数据，其中 name 作为元数据的名称，content 作为元数据的值。<hr></li></ul><h4 id="lt-icon-gt"><a href="#lt-icon-gt" class="headerlink" title="<icon>"></a><font color="#c7254e">&lt;icon&gt;</font></h4><p><code>&lt;link rel="icon" href="images/icon.png"&gt;</code></p><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Typora</title>
       <link href="/2023/07/04/markdown-bian-ji-qi/"/>
       <url>/2023/07/04/markdown-bian-ji-qi/</url>
