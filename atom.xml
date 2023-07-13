@@ -6,7 +6,7 @@
   <link href="https://shaogy.top/atom.xml" rel="self"/>
   
   <link href="https://shaogy.top/"/>
-  <updated>2023-07-12T14:18:09.129Z</updated>
+  <updated>2023-07-13T06:59:31.159Z</updated>
   <id>https://shaogy.top/</id>
   
   <author>
@@ -17,11 +17,111 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>html特殊符号</title>
+    <link href="https://shaogy.top/2023/07/19/te-shu-fu-hao/"/>
+    <id>https://shaogy.top/2023/07/19/te-shu-fu-hao/</id>
+    <published>2023-07-18T16:00:00.000Z</published>
+    <updated>2023-07-13T06:59:31.159Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="https://shaogy.top/categories/Web/"/>
+    
+    
+    <category term="特殊符号" scheme="https://shaogy.top/tags/%E7%89%B9%E6%AE%8A%E7%AC%A6%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html语义标签</title>
+    <link href="https://shaogy.top/2023/07/18/yu-yi-biao-qian/"/>
+    <id>https://shaogy.top/2023/07/18/yu-yi-biao-qian/</id>
+    <published>2023-07-17T16:00:00.000Z</published>
+    <updated>2023-07-13T06:26:18.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="https://shaogy.top/categories/Web/"/>
+    
+    
+    <category term="语义标签" scheme="https://shaogy.top/tags/%E8%AF%AD%E4%B9%89%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html表格</title>
+    <link href="https://shaogy.top/2023/07/17/biao-ge/"/>
+    <id>https://shaogy.top/2023/07/17/biao-ge/</id>
+    <published>2023-07-16T16:00:00.000Z</published>
+    <updated>2023-07-13T06:02:54.356Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="https://shaogy.top/categories/Web/"/>
+    
+    
+    <category term="表格" scheme="https://shaogy.top/tags/%E8%A1%A8%E6%A0%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>html列表</title>
+    <link href="https://shaogy.top/2023/07/16/lie-biao/"/>
+    <id>https://shaogy.top/2023/07/16/lie-biao/</id>
+    <published>2023-07-15T16:00:00.000Z</published>
+    <updated>2023-07-13T02:49:08.752Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="https://shaogy.top/categories/Web/"/>
+    
+    
+    <category term="列表" scheme="https://shaogy.top/tags/%E5%88%97%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>html表单</title>
     <link href="https://shaogy.top/2023/07/15/biao-dan/"/>
     <id>https://shaogy.top/2023/07/15/biao-dan/</id>
     <published>2023-07-14T16:00:00.000Z</published>
-    <updated>2023-07-12T14:18:09.129Z</updated>
+    <updated>2023-07-13T02:49:20.761Z</updated>
     
     
       
