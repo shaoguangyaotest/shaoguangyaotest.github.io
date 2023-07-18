@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>CSS选择器</title>
+      <link href="/2023/07/20/xuan-ze-qi/"/>
+      <url>/2023/07/20/xuan-ze-qi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="标签选择器"><a href="#标签选择器" class="headerlink" title="标签选择器"></a><font color="#c7254e">标签选择器</font></h4><p>选择所有<code>div</code>标签：</p><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">div</span> <span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><h4 id="ID选择器"><a href="#ID选择器" class="headerlink" title="ID选择器"></a><font color="#c7254e">ID选择器</font></h4><p>选择ID为<code>rect-1</code>的标签：</p><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">#rect-1</span> <span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><h4 id="类选择器"><a href="#类选择器" class="headerlink" title="类选择器"></a><font color="#c7254e">类选择器</font></h4><p>选择所有<code>rectangle</code>类的标签：</p><pre class="line-numbers language-css" data-language="css"><code class="language-css"><span class="token selector">.rectangle</span> <span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>    <span class="token property">background-color</span><span class="token punctuation">:</span> gray<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><hr><h4 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a><font color="#c7254e">伪类选择器</font></h4><p>伪类用于定义元素的特殊状态。<br>链接伪类选择器：</p><ul><li><code>:link</code>：链接访问前的样式</li><li><code>:visited</code>：链接访问后的样式</li><li><code>:hover</code>：鼠标悬停时的样式</li><li><code>:active</code>：鼠标点击后长按时的样式</li><li><code>:focus</code>：聚焦后的样式</li></ul><p>位置伪类选择器：</p><ul><li><code>:nth-child(n)</code>：选择是其父标签第<code>n</code>个子元素的所有元素。</li></ul><p>目标伪类选择器：</p><ul><li><code>:target</code>：当url指向该元素时生效。</li></ul><hr><h4 id="复合选择器"><a href="#复合选择器" class="headerlink" title="复合选择器"></a><font color="#c7254e">复合选择器</font></h4><p>由两个及以上基础选择器组合而成的选择器。</p><ul><li><code>element1, element2</code>：同时选择元素<code>element1</code>和元素<code>element2</code>。</li><li><code>element.class</code>：选则包含某类的<code>element</code>元素。</li><li><code>element1 + element2</code>：选择紧跟<code>element1</code>的<code>element2</code>元素。</li><li><code>element1 element2</code>：选择<code>element1</code>内的所有<code>element2</code>元素。</li><li><code>element1 &gt; element2</code>：选择父标签是<code>element1</code>的所有<code>element2</code>元素。</li></ul><hr><h4 id="通配符选择器"><a href="#通配符选择器" class="headerlink" title="通配符选择器"></a><font color="#c7254e">通配符选择器</font></h4><ul><li><code>*</code>：选择所有标签</li><li><code>[attribute]</code>：选择具有某个属性的所有标签</li><li><code>[attribute=value]</code>：选择<code>attribute</code>值为<code>value</code>的所有标签</li></ul><hr><h4 id="伪元素选择器"><a href="#伪元素选择器" class="headerlink" title="伪元素选择器"></a><font color="#c7254e">伪元素选择器</font></h4><p>将特定内容当做一个元素，选择这些元素的选择器被称为伪元素选择器。</p><ul><li><code>::first-letter</code>：选择第一个字母</li><li><code>::first-line</code>：选择第一行</li><li><code>::selection</code>：选择已被选中的内容</li><li><code>::after</code>：可以在元素后插入内容</li><li><code>::before</code>：可以在元素前插入内容</li></ul><hr><h4 id="样式渲染优先级"><a href="#样式渲染优先级" class="headerlink" title="样式渲染优先级"></a><font color="#c7254e">样式渲染优先级</font></h4><ul><li>权重大小，越具体的选择器权重越大：<code>!important</code> &gt; 行内样式 &gt; ID选择器 &gt; 类与伪类选择器 &gt; 标签选择器 &gt; 通用选择器</li><li>权重相同时，后面的样式会覆盖前面的样式</li><li>继承自父元素的权重最低</li></ul><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 选择器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS样式定义方式</title>
       <link href="/2023/07/19/yang-shi-ding-yi-fang-shi/"/>
       <url>/2023/07/19/yang-shi-ding-yi-fang-shi/</url>
