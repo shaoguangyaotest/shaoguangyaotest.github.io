@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>CSS字体与背景</title>
+      <link href="/2023/07/22/zi-ti-yu-bei-jing/"/>
+      <url>/2023/07/22/zi-ti-yu-bei-jing/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="字体："><a href="#字体：" class="headerlink" title="字体："></a>字体：</h3><h4 id="font-size"><a href="#font-size" class="headerlink" title="font-size"></a><font color="#c7254e">font-size</font></h4><p><code>font-size</code> CSS 属性指定字体的大小。因为该属性的值会被用于计算em和ex长度单位，定义该值可能改变其他元素的大小。</p><hr><h4 id="font-style"><a href="#font-style" class="headerlink" title="font-style"></a><font color="#c7254e">font-style</font></h4><p><code>font-style</code> CSS 属性允许你选择 <code>font-family</code> 字体下的 italic 或 oblique 样式。</p><hr><h4 id="font-weight"><a href="#font-weight" class="headerlink" title="font-weight"></a><font color="#c7254e">font-weight</font></h4><p><code>font-weight</code> CSS 属性指定了字体的粗细程度。 一些字体只提供 normal 和 bold 两种值。</p><hr><h4 id="font-family"><a href="#font-family" class="headerlink" title="font-family"></a><font color="#c7254e">font-family</font></h4><p>CSS 属性 <code>font-family</code> 允许您通过给定一个有先后顺序的，由字体名或者字体族名组成的列表来为选定的元素设置字体。<br>属性值用逗号隔开。浏览器会选择列表中第一个该计算机上有安装的字体，或者是通过 @font-face 指定的可以直接下载的字体。</p><hr><h3 id="背景："><a href="#背景：" class="headerlink" title="背景："></a>背景：</h3><h4 id="background-color"><a href="#background-color" class="headerlink" title="background-color"></a><font color="#c7254e">background-color</font></h4><p>CSS属性中的<code>background-color</code>会设置元素的背景色, 属性的值为颜色值或关键字”transparent”二者选其一。</p><hr><h4 id="background-image"><a href="#background-image" class="headerlink" title="background-image"></a><font color="#c7254e">background-image</font></h4><p>CSS <code>background-image</code> 属性用于为一个元素设置一个或者多个背景图像。</p><ul><li>渐变色：<code>linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5))</code></li></ul><hr><h4 id="background-size"><a href="#background-size" class="headerlink" title="background-size"></a><font color="#c7254e">background-size</font></h4><p><code>background-size</code> 设置背景图片大小。图片可以保有其原有的尺寸，或者拉伸到新的尺寸，或者在保持其原有比例的同时缩放到元素的可用空间的尺寸。</p><hr><h4 id="background-repeat"><a href="#background-repeat" class="headerlink" title="background-repeat"></a><font color="#c7254e">background-repeat</font></h4><p><code>background-repeat</code> CSS 属性定义背景图像的重复方式。背景图像可以沿着水平轴，垂直轴，两个轴重复，或者根本不重复。</p><hr><h4 id="background-position"><a href="#background-position" class="headerlink" title="background-position"></a><font color="#c7254e">background-position</font></h4><p><code>background-position</code> 为背景图片设置初始位置。</p><hr><h4 id="background-attachment"><a href="#background-attachment" class="headerlink" title="background-attachment"></a><font color="#c7254e">background-attachment</font></h4><p><code>background-attachment</code> CSS 属性决定背景图像的位置是在视口内固定，或者随着包含它的区块滚动。</p><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 字体 </tag>
+            
+            <tag> 背景 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSS颜色与文本</title>
+      <link href="/2023/07/21/yan-se-yu-wen-ben/"/>
+      <url>/2023/07/21/yan-se-yu-wen-ben/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="颜色："><a href="#颜色：" class="headerlink" title="颜色："></a>颜色：</h3><h4 id="预定义的颜色值"><a href="#预定义的颜色值" class="headerlink" title="预定义的颜色值"></a><font color="#c7254e">预定义的颜色值</font></h4><p>black、white、red、green、blue、lightblue等。</p><hr><h4 id="16进制表示法"><a href="#16进制表示法" class="headerlink" title="16进制表示法"></a><font color="#c7254e">16进制表示法</font></h4><p>使用6位16进制数表示颜色，例如：<code>#ADD8E6</code>。<br>其中第1-2位表示红色，第3-4位表示绿色，第5-6位表示蓝色。</p><p>简写方式：<code>#ABC</code>，等价于<code>#AABBCC</code>。</p><hr><h4 id="RGB表示法"><a href="#RGB表示法" class="headerlink" title="RGB表示法"></a><font color="#c7254e">RGB表示法</font></h4><p><code>rgb(173, 216, 230)</code>。</p><p>其中第一个数表示红色，第二个数表示绿色，第三个数表示蓝色。</p><hr><h4 id="RGBA表示法"><a href="#RGBA表示法" class="headerlink" title="RGBA表示法"></a><font color="#c7254e">RGBA表示法</font></h4><p><code>rgba(173, 216, 230, 0.5)</code>。<br>前三个数同上，第四个数表示透明度。</p><hr><h4 id="取色方式"><a href="#取色方式" class="headerlink" title="取色方式"></a><font color="#c7254e">取色方式</font></h4><ul><li>网页里的颜色，可以在chrome的调试模式下获取</li><li>其他颜色可以使用QQ的截图软件：<ul><li>直接按<code>c</code>键，可以复制rgb颜色值。</li><li>按住<code>shift</code>再按<code>c</code>键，可以复制16进制颜色值</li></ul></li></ul><hr><h3 id="文本："><a href="#文本：" class="headerlink" title="文本："></a>文本：</h3><h4 id="text-align"><a href="#text-align" class="headerlink" title="text-align"></a><font color="#c7254e">text-align</font></h4><p><code>text-align</code> CSS属性定义行内内容（例如文字）如何相对它的块父元素对齐。text-align 并不控制块元素自己的对齐，只控制它的行内内容的对齐。</p><hr><h4 id="line-height"><a href="#line-height" class="headerlink" title="line-height"></a><font color="#c7254e">line-height</font></h4><p><code>line-height</code> CSS 属性用于设置多行元素的空间量，如多行文本的间距。对于块级元素，它指定元素行盒（line boxes）的最小高度。对于非替代的 inline 元素，它用于计算行盒（line box）的高度。</p><ul><li>补充知识点：长度单位</li></ul><table>    <thead>        <tr>            <th>单位</th>            <th>描述</th>        </tr>    </thead>    <tbody>        <tr>            <td>px</td>            <td>设备上的像素点</td>        </tr>        <tr>            <td>%</td>            <td>相对于父元素的百分比</td>        </tr>        <tr>            <td>em</td>            <td>相对于当前元素的字体大小</td>                </tr>        <tr>            <td>rem</td>            <td>相对于根元素的字体大小</td>        </tr>        <tr>                        <td>vw</td>            <td>相对于视窗宽度的百分比</td>        </tr>        <tr>            <td>vh</td>            <td>相对于视窗高度的百分比</td>        </tr>    </tbody></table><hr><h4 id="letter-spacing"><a href="#letter-spacing" class="headerlink" title="letter-spacing"></a><font color="#c7254e">letter-spacing</font></h4><p>CSS 的 <code>letter-spacing</code> 属性用于设置文本字符的间距。</p><hr><h4 id="text-indent"><a href="#text-indent" class="headerlink" title="text-indent"></a><font color="#c7254e">text-indent</font></h4><p><code>text-indent</code>属性能定义一个块元素首行文本内容之前的缩进量。</p><hr><h4 id="text-decoration"><a href="#text-decoration" class="headerlink" title="text-decoration"></a><font color="#c7254e">text-decoration</font></h4><p><code>text-decoration</code> 这个 CSS 属性是用于设置文本的修饰线外观的（下划线、上划线、贯穿线/删除线 或 闪烁）它是 <code>text-decoration-line</code>, <code>text-decoration-color</code>, <code>text-decoration-style</code>, 和新出现的 <code>text-decoration-thickness</code> 属性的缩写。</p><hr><h4 id="text-shadow"><a href="#text-shadow" class="headerlink" title="text-shadow"></a><font color="#c7254e">text-shadow</font></h4><p><code>text-shadow</code>为文字添加阴影。可以为文字与 <code>text-decorations</code> 添加多个阴影，阴影值之间用逗号隔开。每个阴影值由元素在X和Y方向的偏移量、模糊半径和颜色值组成。</p><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 颜色 </tag>
+            
+            <tag> 文本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS选择器</title>
       <link href="/2023/07/20/xuan-ze-qi/"/>
       <url>/2023/07/20/xuan-ze-qi/</url>
@@ -13,7 +67,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> CSS </category>
           
       </categories>
       
@@ -38,7 +92,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> CSS </category>
           
       </categories>
       
@@ -63,7 +117,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -88,7 +142,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -113,7 +167,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -138,7 +192,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -163,7 +217,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -190,7 +244,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -217,7 +271,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -242,7 +296,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
@@ -267,7 +321,7 @@
       
       <categories>
           
-          <category> Web </category>
+          <category> html </category>
           
       </categories>
       
