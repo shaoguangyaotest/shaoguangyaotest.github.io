@@ -4,6 +4,87 @@
   
     
     <entry>
+      <title>CSS位置与浮动</title>
+      <link href="/2023/07/25/wei-zhi-yu-fu-dong/"/>
+      <url>/2023/07/25/wei-zhi-yu-fu-dong/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="位置："><a href="#位置：" class="headerlink" title="位置："></a>位置：</h3><h4 id="position"><a href="#position" class="headerlink" title="position"></a><font color="#c7254e">position</font></h4><p><code>CSS position</code>属性用于指定一个元素在文档中的定位方式。<br><strong>定位类型</strong>：</p><ul><li>定位元素（positioned element）是其计算后位置属性为 relative, absolute, fixed 或 sticky 的一个元素（换句话说，除static以外的任何东西）。</li><li>相对定位元素（relatively positioned element）是计算后位置属性为 relative 的元素。</li><li>绝对定位元素（absolutely positioned element）是计算后位置属性为 absolute 或 fixed 的元素。</li><li>粘性定位元素（stickily positioned element）是计算后位置属性为 sticky 的元素。</li></ul><p><strong>取值</strong>：</p><ul><li><code>static</code>：该关键字指定元素使用正常的布局行为，即元素在文档常规流中当前的布局位置。此时 top, right, bottom, left 和 z-index 属性无效。</li><li><code>relative</code>：该关键字下，元素先放置在未添加定位时的位置，再在不改变页面布局的前提下调整元素位置（因此会在此元素未添加定位时所在位置留下空白）。top, right, bottom, left等调整元素相对于初始位置的偏移量。</li><li><code>absolute</code>：元素会被移出正常文档流，并不为元素预留空间，通过指定元素相对于最近的非 static 定位祖先元素的偏移，来确定元素位置。绝对定位的元素可以设置外边距（margins），且不会与其他边距合并。</li><li><code>fixed</code>：元素会被移出正常文档流，并不为元素预留空间，而是通过指定元素相对于屏幕视口（viewport）的位置来指定元素位置。元素的位置在屏幕滚动时不会改变。</li><li><code>sticky</code>：元素根据正常文档流进行定位，然后相对它的最近滚动祖先（nearest scrolling ancestor）和 containing block (最近块级祖先 nearest block-level ancestor)，包括table-related元素，基于top, right, bottom, 和 left的值进行偏移。偏移值不会影响任何其他元素的位置。</li></ul><hr><h3 id="浮动："><a href="#浮动：" class="headerlink" title="浮动："></a>浮动：</h3><h4 id="float"><a href="#float" class="headerlink" title="float"></a><font color="#c7254e">float</font></h4><p><code>float</code> CSS属性指定一个元素应沿其容器的左侧或右侧放置，允许文本和内联元素环绕它。该元素从网页的正常流动(文档流)中移除，尽管仍然保持部分的流动性（与绝对定位相反）。</p><p>由于float意味着使用块布局，它在某些情况下修改display 值的计算值：</p><ul><li><code>display</code>为<code>inline</code>或<code>inline-block</code>时，使用<code>float</code>后会统一变成<code>block</code>。</li></ul><p><strong>取值：</strong></p><ul><li><code>left</code>：表明元素必须浮动在其所在的块容器左侧的关键字。</li><li><code>right</code>：表明元素必须浮动在其所在的块容器右侧的关键字。</li></ul><h4 id="clear"><a href="#clear" class="headerlink" title="clear"></a><font color="#c7254e">clear</font></h4><p>有时，你可能想要强制元素移至任何浮动元素下方。比如说，你可能希望某个段落与浮动元素保持相邻的位置，但又希望这个段落从头开始强制独占一行。此时可以使用<code>clear</code>。<br><strong>取值：</strong></p><ul><li><code>left</code>：清除左侧浮动。</li><li><code>right</code>：清除右侧浮动。</li><li><code>both</code>：清除左右两侧浮动。</li></ul><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 位置 </tag>
+            
+            <tag> 浮动 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSS内外边距与盒子模型</title>
+      <link href="/2023/07/24/nei-wai-bian-ju-yu-he-zi-mo-xing/"/>
+      <url>/2023/07/24/nei-wai-bian-ju-yu-he-zi-mo-xing/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="内外边距："><a href="#内外边距：" class="headerlink" title="内外边距："></a>内外边距：</h3><h4 id="margin"><a href="#margin" class="headerlink" title="margin"></a><font color="#c7254e">margin</font></h4><p><code>margin</code>属性为给定元素设置所有四个（上下左右）方向的外边距属性。</p><ul><li>可以接受1~4个值（上、右、下、左的顺序）</li><li>可以分别指明四个方向：<code>margin-top</code>、<code>margin-right</code>、<code>margin-bottom</code>、<code>margin-left</code></li><li>可取值<ul><li><code>length</code>：固定值</li><li><code>percentage</code>：相对于包含块的宽度，以百分比值为外边距。</li><li><code>auto</code>：让浏览器自己选择一个合适的外边距。有时，在一些特殊情况下，该值可以使元素居中。</li></ul></li><li>外边距重叠<ul><li>块的上外边距(margin-top)和下外边距(margin-bottom)有时合并(折叠)为单个边距，其大小为单个边距的最大值(或如果它们相等，则仅为其中一个)，这种行为称为边距折叠。</li><li>父元素与后代元素：父元素没有上边框和padding时，后代元素的<code>margin-top</code>会溢出，溢出后父元素的<code>margin-top</code>会与后代元素取最大值。</li></ul></li></ul><hr><h4 id="padding"><a href="#padding" class="headerlink" title="padding"></a><font color="#c7254e">padding</font></h4><p><code>padding</code> CSS 简写属性控制元素所有四条边的内边距区域。</p><ul><li>可以接受1~4个值（上、右、下、左的顺序）</li><li>可以分别指明四个方向：<code>padding-top</code>、<code>padding-right</code>、<code>padding-bottom</code>、<code>padding-left</code></li><li>可取值<ul><li><code>length</code>：固定值</li><li><code>percentage</code>：相对于包含块的宽度，以百分比值为内边距。</li></ul></li></ul><hr><h3 id="盒子模型："><a href="#盒子模型：" class="headerlink" title="盒子模型："></a>盒子模型：</h3><h4 id="box-sizing"><a href="#box-sizing" class="headerlink" title="box-sizing"></a><font color="#c7254e">box-sizing</font></h4><p>CSS 中的 <code>box-sizing</code> 属性定义了 user agent 应该如何计算一个元素的总宽度和总高度。</p><ul><li><code>content-box</code>：是默认值，设置<code>border</code>和<code>padding</code>均会增加元素的宽高。</li><li><code>border-box</code>：设置<code>border</code>和<code>padding</code>不会改变元素的宽高，而是挤占内容区域。</li></ul><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 内外边距 </tag>
+            
+            <tag> 盒子模型 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSS边框与元素展示格式</title>
+      <link href="/2023/07/23/bian-kuang-yu-yuan-su-zhan-shi-ge-shi/"/>
+      <url>/2023/07/23/bian-kuang-yu-yuan-su-zhan-shi-ge-shi/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="边框："><a href="#边框：" class="headerlink" title="边框："></a>边框：</h3><h4 id="border-style"><a href="#border-style" class="headerlink" title="border-style"></a><font color="#c7254e">border-style</font></h4><p><code>border-style</code> 是一个 CSS 简写属性，用来设定元素所有边框的样式。</p><hr><h4 id="border-width"><a href="#border-width" class="headerlink" title="border-width"></a><font color="#c7254e">border-width</font></h4><p><code>border-width</code>属性可以设置盒子模型的边框宽度。</p><hr><h4 id="border-color"><a href="#border-color" class="headerlink" title="border-color"></a><font color="#c7254e">border-color</font></h4><p>CSS属性<code>border-color</code> 是一个用于设置元素四个边框颜色的快捷属性： <code>border-top-color</code>, <code>border-right-color</code>, <code>border-bottom-color</code>, <code>border-left-color</code></p><hr><h4 id="border-radius"><a href="#border-radius" class="headerlink" title="border-radius"></a><font color="#c7254e">border-radius</font></h4><p>CSS 属性 <code>border-radius</code> 允许你设置元素的外边框圆角。当使用一个半径时确定一个圆形，当使用两个半径时确定一个椭圆。这个(椭)圆与边框的交集形成圆角效果。</p><hr><h4 id="border-collapse"><a href="#border-collapse" class="headerlink" title="border-collapse"></a><font color="#c7254e">border-collapse</font></h4><p><code>border-collapse</code> CSS 属性是用来决定表格的边框是分开的还是合并的。在分隔模式下，相邻的单元格都拥有独立的边框。在合并模式下，相邻单元格共享边框。</p><hr><h3 id="元素展示格式："><a href="#元素展示格式：" class="headerlink" title="元素展示格式："></a>元素展示格式：</h3><h4 id="display"><a href="#display" class="headerlink" title="display"></a><font color="#c7254e">display</font></h4><ul><li><code>block</code>：<ul><li>独占一行</li><li>width、height、margin、padding均可控制</li><li>width默认100%。</li></ul></li><li><code>inline</code>：<ul><li>可以共占一行</li><li>width与height无效，水平方向的margin与padding有效，竖直方向的margin与padding无效</li><li>width默认为本身内容宽度</li></ul></li><li><code>inline-block</code>：<ul><li>可以共占一行</li><li>width、height、margin、padding均可控制</li><li>width默认为本身内容宽度</li></ul></li></ul><hr><h4 id="white-space"><a href="#white-space" class="headerlink" title="white-space"></a><font color="#c7254e">white-space</font></h4><p><code>white-space</code> CSS 属性是用来设置如何处理元素中的 空白 (en-US)。</p><hr><h4 id="text-overflow"><a href="#text-overflow" class="headerlink" title="text-overflow"></a><font color="#c7254e">text-overflow</font></h4><p><code>text-overflow</code> CSS 属性确定如何向用户发出未显示的溢出内容信号。它可以被剪切，显示一个省略号或显示一个自定义字符串。</p><hr><h4 id="overflow"><a href="#overflow" class="headerlink" title="overflow"></a><font color="#c7254e">overflow</font></h4><p>CSS属性 <code>overflow</code> 定义当一个元素的内容太大而无法适应 块级格式化上下文 时候该做什么。它是 <code>overflow-x</code> 和<code>overflow-y</code>的 简写属性 。</p><hr><h1 id="以上均出自y总课程"><a href="#以上均出自y总课程" class="headerlink" title="以上均出自y总课程"></a>以上均出自y总课程</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 边框 </tag>
+            
+            <tag> 元素展示格式 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CSS字体与背景</title>
       <link href="/2023/07/22/zi-ti-yu-bei-jing/"/>
       <url>/2023/07/22/zi-ti-yu-bei-jing/</url>
